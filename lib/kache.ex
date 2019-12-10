@@ -6,7 +6,7 @@ def start_link do
 end
 
 def init(state) do
-  start_ets() |> IO.inspect
+  start_ets()
   {:ok, state}
 end
 

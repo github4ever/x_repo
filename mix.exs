@@ -14,7 +14,7 @@ defmodule XRepo.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      mod: {XRepo.Application, []},
+      mod: {XRepo, []},
       extra_applications: [:logger]
     ]
   end
