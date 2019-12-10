@@ -1,4 +1,4 @@
-defmodule XRepo.Application do
+defmodule XRepo do
   @moduledoc """
   Documentation for XRepo.
   """
